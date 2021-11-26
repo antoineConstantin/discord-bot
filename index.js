@@ -12,7 +12,7 @@ Client.on("ready", () => {
     console.log("Le bot c'est bien lancé.")
 });
 
-Client.login(process.env.tocken)
+Client.login(process.env.token)
 
 Client.on("messageCreate", message => {
     if (message.author.bot) return;
