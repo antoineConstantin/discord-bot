@@ -1,4 +1,10 @@
 {
+  "name": "bot_serveur",
+  "version": "1.0.0",
+  "description": "Bot permettant de faciliter la gestion du serveur",
+  "main": "index.js",
+  "author": "M_056",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "^13.3.1"
   },
