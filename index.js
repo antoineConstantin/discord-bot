@@ -12,8 +12,6 @@ Client.on("ready", () => {
     console.log("Le bot c'est bien lancé.")
 });
 
-Client.login(process.env.token)
-
 Client.on("messageCreate", message => {
     if (message.author.bot) return;
 
@@ -41,3 +39,5 @@ Client.on("messageCreate", message => {
         message.channel.send({ embeds : [embed]});
     }
 });
+
+Client.login(process.env.token);
