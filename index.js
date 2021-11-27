@@ -6,7 +6,7 @@ const Client = new Discord.Client({
     ]
 });
 
-client.login(process.env.token);
+Client.login(process.env.token);
 
 const prefix = "!";
 
